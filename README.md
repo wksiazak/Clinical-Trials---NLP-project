@@ -10,8 +10,9 @@ The project consists of several steps, including:</p>
 
 * Data preparation:  
   Original file was downloaded as json file with some columns with nested structrures. Therefore there was need to flatten file and select columns with most important information for text analysis. Next major step was to clean data (remove stopwords, blanks etc. )
-  After finishing this step we had first insight with what kind of data we will work -> by creating first Word Cloud
-  ![WordCloud]()
+  After finishing this step we had first insight with what kind of data we will work -> by creating first Word Cloud  
+  ![WordCloud](https://github.com/wksiazak/Clinical-Trials---NLP-project/blob/master/Word_cloud_general_clinical_trials.png)
+
 * TF IDF - used for general analysis  
 * TF IDF - used for clustering and unsupervised machine learnign methods (Random Forest Classifier)
 * ...
