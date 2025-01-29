@@ -64,13 +64,13 @@ def save_to_csv(df, output_file):
 
 def main():
     download_nltk_resources()
-    data = load_json_data('ctg-studies_top_4000.json')
+    data = load_json_data('working_files/ctg-studies_top_4000.json')
     df = preprocess_dataframe(data)
     df = flatten_dataframe(df)
     df = remove_empty_columns(df, 2000)
-    df = select_columns(df, 'selected_columns.csv')
+    df = select_columns(df, 'working_files/selected_columns.csv')
     df = clean_dataframe(df)
-    save_to_csv(df, 'cleaned_data.csv')
+    save_to_csv(df, 'working_files/cleaned_data.csv')
 
 if __name__ == "__main__":
     main()

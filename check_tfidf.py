@@ -75,7 +75,7 @@ def visualize_clusters(train_pca, train_clusters, test_pca, test_clusters):
 
 def main():
     # Load and prepare data
-    cleaned_data = load_data("cleaned_data.csv")
+    cleaned_data = load_data("working_files/cleaned_data.csv")
     ids_selected, docs_selected_combined = prepare_data(cleaned_data)
 
     # Split data
@@ -99,8 +99,10 @@ def main():
     test_pca = train_pca_model.transform(tfidf_test_matrix.toarray())
 
     # Save clusters and PCA data
-    save_clusters_with_pca(df_train_top_words, train_clusters, train_pca, "train_clusters_with_pca.csv")
-    save_clusters_with_pca(df_test_top_words, test_clusters, test_pca, "test_clusters_with_pca.csv")
+    save_clusters_with_pca(df_train_top_words, train_clusters, train_pca,
+                           "working_files/train_clusters_with_pca.csv")
+    save_clusters_with_pca(df_test_top_words, test_clusters, test_pca,
+                           "working_files/test_clusters_with_pca.csv")
 
     # Visualize clusters
     visualize_clusters(train_pca, train_clusters, test_pca, test_clusters)

@@ -86,8 +86,8 @@ def main():
                 "Data coming from https://clinicaltrials.gov/ - here we are using 4000 examples of different clinical trials")
 
     # Ładowanie danych
-    train_data = pd.read_csv("train_clusters_with_pca.csv")
-    test_data = pd.read_csv("test_clusters_with_pca.csv")
+    train_data = pd.read_csv("working_files/train_clusters_with_pca.csv")
+    test_data = pd.read_csv("working_files/test_clusters_with_pca.csv")
 
     # Połączenie danych treningowych i testowych
     combined_data = pd.concat([train_data, test_data])
