@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b01e57c-5208-4ada-b9e1-b35f2a198afa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/check_tfidf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP_clinical_trails.ipynb" beforeDir="false" />
-    </list>
+    <list default="true" id="2b01e57c-5208-4ada-b9e1-b35f2a198afa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
