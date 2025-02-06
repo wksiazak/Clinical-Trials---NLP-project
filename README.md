@@ -1,6 +1,12 @@
 # Clinical-Trials---NLP-project
 This code allows to deep dive into details of clinical trials data by using NLP techinques. Source of data: [ClinicalTrials.gov](https://www.clinicaltrials.gov/search?viewType=Table&limit=100&aggFilters=status:com)
 
+## 🚀 Live Demo
+
+You can access the live version of the Streamlit app here:
+
+👉 [Click to Open Streamlit App](https://clinical-trials---nlp-project-vvwtszf2ujmtqwgjayyj2m.streamlit.app/)
+
 ## General info <a name="general-info"></a>
 
 <p>Main purpose of this project was to analyse what kind of text data are clinical trials and which NLP techniques are the best ones for this task. 
@@ -28,11 +34,7 @@ The project consists of several steps, including:</p>
 
 
 ## Results 
-## 🚀 Live Demo
 
-You can access the live version of the Streamlit app here:
-
-👉 [Click to Open Streamlit App](https://clinical-trials---nlp-project-vvwtszf2ujmtqwgjayyj2m.streamlit.app/)
 
 ## Summary
 tbd 
