@@ -178,6 +178,5 @@ def main():
     if selected_word:
         display_related_data(combined_data, selected_word)
 
-
 if __name__ == "__main__":
     main()
