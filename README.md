@@ -27,7 +27,11 @@ The project consists of several steps, including:</p>
 
 
 ## Results 
+## 🚀 Live Demo
 
+You can access the live version of the Streamlit app here:
+
+👉 [Click to Open Streamlit App](https://clinical-trials---nlp-project-vvwtszf2ujmtqwgjayyj2m.streamlit.app/)
 
 ## Summary
 tbd 
