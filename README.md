@@ -28,18 +28,21 @@ The project consists of several steps, including:</p>
   - the **Kullback-Leibler (KL**) divergence measures how much one probability distribution differs from another - in this example the KL divergence between the training and test distributions is 0.0104 -  it suggests that the training and test data distributions are well-aligned, reducing the risk of distribution shift and ensuring that the model's performance on the test set should be a good indicator of real-world performance.
   
 * **Random Forest Classifier**
-  tbd
+  After analysing of TF-IDF and clustering  I used Random Forrest Classifier algorithm to check predictions of cluster on test data. Applying **SMOTE** metod and **Gradient Boosting** model I received quite good Overall Accuracy: 83% -> details you may find in in the folder "notebooks" in workbook with TF-IDF
 * **NER**
-  NER (Named Entity Recognition)  - in the folder "notebooks"  you may find dedicated workbook for this analysis. I tried fine-tuning approach on my data with using BioBert model and NER with extrenal model like "en_core_web_sm"
+  NER (Named Entity Recognition)  - in the folder "notebooks"  you may find dedicated workbook for this analysis. I tried fine-tuning approach on my data with using **BioBert** model and NER with extrenal model like "**en_core_web_sm**"
 * **Word Embeding**
   In the folder "notebooks"  you may find dedicated workbook for this analysis. It uses Word2Vec which is a word embedding technique, clustering and cosine similarity calculated for clusters,  
 
 
-## Technolgies <a name="technologies/libraries"></a>
+## Technolgies & Libraries  <a name="technologies/libraries"></a>
 <ul>
 <li>Python -  scripts are written in Python</li>
+<li>pandas</li>
+<li>nltk</li>
 <li>sklearn</li>
 <li>matplotlib</li>
+<li>seaborn</li>
 </ul>
 
 ## Summary
