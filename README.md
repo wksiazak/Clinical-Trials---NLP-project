@@ -20,13 +20,20 @@ The project consists of several steps, including:</p>
   ![WordCloud](https://github.com/wksiazak/Clinical-Trials---NLP-project/blob/master/working_files/Word_cloud_general_clinical_trials.png)
 
 * **TF-IDF Vectorizer**
-  In next step I computed TF-IDFs on train and test data and then performed clustering and reduced dimension. The results we can verify in prepared streamlit app.
+  In next step I computed TF-IDFs on train and test data and then performed clustering and reduced dimension. The results we can verify in prepared **streamlit app**.
   Main insights:
-  - both train and test data are nicely clustering in main groups - in this case I selected main 9 clusters where each represents different symptoms 
+  - both train and test data are nicely clustering in main groups - in this case I selected main 9 clusters where each represents different symptoms
+  - Word Clouds were prepared for every cluster and viewer can check each of them in dynamic way
+  - Tags were counted as more frequent words and viewer can also check in which clinical trials we may find them 
+  - the **Kullback-Leibler (KL**) divergence measures how much one probability distribution differs from another - in this example the KL divergence between the training and test distributions is 0.0104 -  it suggests that the training and test data distributions are well-aligned, reducing the risk of distribution shift and ensuring that the model's performance on the test set should be a good indicator of real-world performance.
   
-* Random Forest Classifier
-* NER
-* Word Embeding
+* **Random Forest Classifier**
+  tbd
+* **NER**
+  NER (Named Entity Recognition)  - in the folder "notebooks"  you may find dedicated workbook for this analysis. I tried fine-tuning approach on my data with using BioBert model and NER with extrenal model like "en_core_web_sm"
+* **Word Embeding**
+  In the folder "notebooks"  you may find dedicated workbook for this analysis. It uses Word2Vec which is a word embedding technique, clustering and cosine similarity calculated for clusters,  
+
 
 ## Technolgies <a name="technologies/libraries"></a>
 <ul>
