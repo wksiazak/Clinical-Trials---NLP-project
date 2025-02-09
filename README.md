@@ -37,7 +37,7 @@ The project consists of several steps, including:</p>
 
 ## Technolgies & Libraries  <a name="technologies/libraries"></a>
 <ul>
-<li>Python -  scripts are written in Python</li>
+<li>Python</li>
 <li>pandas</li>
 <li>nltk</li>
 <li>sklearn</li>
@@ -45,8 +45,11 @@ The project consists of several steps, including:</p>
 <li>seaborn</li>
 </ul>
 
-## Summary
-tbd 
+## Summary & Possible improvements: 
+After testing all the techniques mentioned above, I can confidently say that exploring different NLP approaches in the initial phase is worthwhile. In this case, TF-IDF delivered the best results, which can be viewed in the Live Demo App.
 
-### Possible Improvements:
-tbd
+We also observed promising outcomes using pretrained large language models like BioBERT. However, for optimal performance, it would be beneficial to use a larger dataset of clinical trials (beyond just 4,000 documents). Additionally, implementing such models requires significantly more time and computational resources.
+
+Sentiment analysis produced the weakest results in this dataset, primarily because the data consists mostly of structured clinical records—lacking patient feedback, social media content, or subjective reports.
+
+It’s important to highlight that data preparation (including data cleaning, tokenization, and balancing) is the foundation of any successful NLP project. A possible next step in this case would be to analyze a larger set of clinical trials.
