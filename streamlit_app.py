@@ -5,15 +5,6 @@ from wordcloud import WordCloud
 from collections import Counter
 import seaborn as sns
 
-import spacy
-from spacy.cli import download
-
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    download("en_core_web_sm")
-    nlp = spacy.load("en_core_web_sm")
-
 
 # Function to create cluster plots with a legend
 def plot_clusters(data, selected_clusters, title):
