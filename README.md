@@ -5,7 +5,7 @@ This code allows to deep dive into details of clinical trials data by using NLP 
 
 You can access the live version of the Streamlit app here:
 
-👉 [Click to Open Streamlit App](https://clinical-trials---nlp-project-vvwtszf2ujmtqwgjayyj2m.streamlit.app/)
+👉 [Click to Open Streamlit App](https://clinical-trials---nlp-project-nqgew9wacbvjjjw24y3kp5.streamlit.app/)
 
 ## 📖 General info <a name="general-info"></a>
 
